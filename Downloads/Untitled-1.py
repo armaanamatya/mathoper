@@ -7,3 +7,9 @@ def subtract(a, b):
 
 def multiply(a, b):
     return a * b
+
+def division(a,b):
+    if b != 0: 
+        return a/b
+    else:
+        print("Cannot divide by zero")
